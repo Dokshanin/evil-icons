@@ -12,9 +12,9 @@ function icon(name, options) {
                 '<use xlink:href="#' + name + '-icon" />' +
               '</svg>';
 
-  var html =  '<div class="' + classes + '">' +
+  var html =  '<i class="' + classes + '">' +
                 wrapSpinner(icon, classes) +
-              '</div>';
+              '</i>';
 
   return html;
 }
