@@ -12,9 +12,9 @@ module EvilIcons
       icon = "<svg class='icon__cnt'><use xlink:href='##{name}-icon'/></svg>"
 
       html_safe "
-        <div class='#{options[:class]}'>
+        <i class='#{options[:class]}'>
           #{wrap_spinner icon, options[:class]}
-        </div>
+        </i>
       "
     end
 
